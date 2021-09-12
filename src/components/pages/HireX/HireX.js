@@ -45,11 +45,11 @@ function Terms() {
 			</nav>
 			<div class="breaking-news-section">
 				<span id="btext">Trending</span>
-				<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+				<div direction="left" onmouseover="this.stop()" onmouseout="this.start()">
 					<a href="/" class="breaking-news">
 						<p class="bntime">1 Dec 2021</p>
 						Top 5 soft skills needed for auditor executives in Singapore</a>
-									</marquee>
+									</div>
 			</div>
 		</header>
 		<main>
