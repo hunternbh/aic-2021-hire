@@ -53,13 +53,12 @@ function Navbar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link
-                  to='/hire-x'
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                >
-                  Hire-Y
-                </Link>
+                <a href="https://streamlit13.herokuapp.com/"
+                className='nav-links'
+                onClick={closeMobileMenu}>
+
+                Hire-Y
+                </a>
               </li>
               <li className='nav-item'>
                 <Link
